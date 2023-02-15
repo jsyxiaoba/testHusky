@@ -1,0 +1,43 @@
+{
+    "rules": {
+        "prefer-conditional-expression": true,
+        "no-var-requires": false,
+        "no-submodule-imports": false,
+        "no-unused-expression": false,
+        "object-literal-sort-keys": false,
+        "jsx-no-lambda": false,
+        "no-implicit-dependencies": false,
+        "no-console": false,
+        "ordered-imports": false,
+        "member-ordering": false,
+        "array-type": [
+            false
+        ],
+        "curly": [
+            true,
+            "ignore-same-line"
+        ],
+        "no-bitwise": false,
+        "jsdoc-format": false,
+        "no-empty-interface": false,
+        "no-string-literal": false,
+        "variable-name": {
+            "options": [
+                "ban-keywords",
+                "check-format",
+                "allow-leading-underscore",
+                "allow-pascal-case",
+                "allow-snake-case",
+                "allow-trailing-underscore"
+            ]
+        },
+        "no-this-assignment": false,
+        "only-arrow-functions": false,
+        "prefer-for-of": false,
+        "jsx-boolean-value": false,
+        "member-access": true,
+        "prefer-const": false,
+        "one-variable-per-declaration": false
+    }
+}
+
