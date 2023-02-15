@@ -1,14 +1,7 @@
 const F = () => {
     let a = 0;
     let b;
-    const ee = () => {
-        if (a===0) {
-            b = 4;
-        } else {
-            b = 5;
-        }
-        return b;
-    }
+    const ee = () => a === 0 ? b = 4 : b = 5;
     return (
         <div>123</div>
     )
